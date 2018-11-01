@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>tehtava3_3</title>
+</head>
+<body>
+<h1></h1>
+<script>
+  'use strict';
+  let alku = prompt('aloitusvuosi');
+  let loppu = prompt('lopetusvuosi');
+  for (let i = alku; i <= loppu; i++) {
+    if ((0 === i % 4) && (0 !== i % 100) || (0 === i % 400)) {
+      console.log('Vuosi ' + i + ' on karkausvuosi');
+    }
+
+  }
+
+
+</script>
+</body>
+</html>
+
+
+

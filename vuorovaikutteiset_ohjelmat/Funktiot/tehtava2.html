@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>tehtava4</title>
+</head>
+<body>
+<h1></h1>
+<script>
+  'use strict';
+  let gas = +prompt ('Syötä polttoainemäärä galloonissa');
+
+  let ret = muunnos(gas);
+  document.write(ret);
+
+  function muunnos(gallon) {
+    let conversion = gallon * 3.785;
+
+    return conversion;
+
+  }
+
+
+</script>
+</body>
+</html>
